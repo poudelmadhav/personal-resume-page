@@ -1,0 +1,117 @@
+html { 
+	background: url("../images/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+.prof-box {
+	max-width: 400px;
+	max-height: 440px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.prof-pic {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+
+h1 {
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+p {
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+.social-icons {
+	font-size: 40px;
+}
+
+.social-icons a {
+	color: white;
+}
+
+.social-icons  a:hover {
+	color: #077dfb;
+	font-size: 50px; 
+}
+
+.line-break {
+	width: 305px;
+	margin: 0 auto;
+	border-top: 1px solid white;
+}
+
+	/* Dropvotton Button  css started*/
+.dropbtn {
+    background-color: rgba(220, 16, 76, 0);
+    font-weight: bold;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-top: 5px;
+    margin-right: 5px;
+
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.dropbtn a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Change the background color of the About me button when the dropdown content is shown */
+.dropbtn:hover {
+    background-color: rgba(220, 16, 76, 1);
+    border: 2px solid #dc104c;
+}
+
+.menubar {
+	height: 50px;
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .menu-content {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 12px;
+}
+
+li a:hover {
+	color: #dc104c;
+}
